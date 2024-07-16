@@ -64,3 +64,16 @@ Console.WriteLine($"la resta de los numeros {b} - {c} es igual a: {calculadora.R
 
 Producto producto = new Producto("Laptop", 2500.0);
 Console.WriteLine($"El producto {producto.Nombre} tiene un valor de: {producto.Precio} COP" );
+
+//Usando los metodos GetNombre() y SetNombre()
+
+producto.SetNombre("Mouse");
+Console.WriteLine($"El producto ahora se llama: {producto.GetNombre()}");
+Console.WriteLine($"El producto {producto.Nombre} tiene un valor de: {producto.Precio} COP" );
+
+//Usando la clase CuentaBancaria
+
+var cuenta = new CuentaBancaria();
+//Usando el metodo Depositar()
+cuenta.Depositar(5000);
+cuenta.Depositar(10000);

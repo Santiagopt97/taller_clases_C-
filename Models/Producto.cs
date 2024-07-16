@@ -15,5 +15,13 @@ namespace taller_clases.Models
             this.Nombre = nombre.ToLower();
             this.Precio = precio;
         }
+
+        public string GetNombre(){
+            return Nombre;
+        }
+
+        public string SetNombre(string nombre){
+            return Nombre = nombre;
+        }
     }
 }
