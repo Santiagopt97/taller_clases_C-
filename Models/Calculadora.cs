@@ -11,5 +11,10 @@ namespace taller_clases.Models
             var suma = a + b;
             return suma;
         }
+
+        public int Restar(int a, int b){
+            var resta = a - b;
+            return resta;
+        }
     }
 }

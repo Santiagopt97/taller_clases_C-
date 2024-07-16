@@ -51,7 +51,16 @@ Console.WriteLine($"El texto {texto}: tiene {libro.ContarPalabras(texto)} palabr
 //usando la clase Calculadora
 
 Calculadora calculadora = new Calculadora();
-int a = 5, b = 10;
+int a = 5, b = 10, c=2;
+
+//Usando el metodo Sumar()
 
 Console.WriteLine($"la suma de los numeros {a} + {b} es igual a: {calculadora.Sumar(a,b)}");
 
+//usando el metodo Restar()
+Console.WriteLine($"la resta de los numeros {b} - {c} es igual a: {calculadora.Restar(b,c)}");
+
+//usando la clase Producto
+
+Producto producto = new Producto("Laptop", 2500.0);
+Console.WriteLine($"El producto {producto.Nombre} tiene un valor de: {producto.Precio} COP" );
